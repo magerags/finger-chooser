@@ -32,7 +32,7 @@ const MAX_FINGERS = 5;
 const CIRCLE_RADIUS = 65;
 const SVG_CIRCLE_STROKE_WIDTH = 12;
 const STABILITY_DELAY = 1000;
-const PULSE_COUNTDOWN_DELAY = 5000;
+const PULSE_COUNTDOWN_DELAY = 4000;
 
 type GamePhase = "idle" | "waiting_stability" | "pulsing" | "winner_selected";
 
