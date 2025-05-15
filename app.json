@@ -1,20 +1,24 @@
 {
   "expo": {
-    "name": "finger-chooser",
+    "name": "Finger Chooser",
     "slug": "finger-chooser",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/splash-image.png",
+      "enableFullScreenImage_legacy": true,
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.whittler.Chooser"
+      "supportsTablet": false,
+      "bundleIdentifier": "com.whittler.Chooser",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
